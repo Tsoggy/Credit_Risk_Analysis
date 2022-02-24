@@ -111,7 +111,7 @@ The confusion matrix using SMOTE-ENN shows that, similar to random oversampling,
 ### Balanced Random Forest Classifying
 BRF (Balanced random forest) classifying undersamples our data to balance it. Using BRF to resample our training dataset produces the following counts for the high-risk and low-risk groups:
 
-<img src = "Resources/BRFCounts.png" width="300">
+<img src = "Resources/BRFCounts.png" width="250">
 
 #### Confusion Matrix
 The confusion matrix using BRF shows that it is better at predicting high-risk applications than some of the other methods.
@@ -128,7 +128,7 @@ The confusion matrix using BRF shows that it is better at predicting high-risk a
 ### Easy Ensemble Classifying
 Easy ensemble classifying creates balanced samples of the training dataset by selecting all examples from the minority class and a subset from the majority class. Using easy ensemble to resample our training dataset produces the following counts for the high-risk and low-risk groups:
 
-<img src = "Resources/EnsembleCounts.png" width="300">
+<img src = "Resources/EnsembleCounts.png" width="250">
 
 #### Confusion Matrix
 The confusion matrix using easy ensemble shows that it is better at predicting high-risk applications than some of the other methods.
