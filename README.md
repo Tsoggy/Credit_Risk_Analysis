@@ -28,7 +28,8 @@ Random oversampling duplicates the records of the minority class (data that is i
 
 #### Confusion Matrix
 The confusion matrix using Naive Random Oversampling show that this model was able to identify low-risk data at much greater rates than high-risk data.
-<img src = "Resources/RandomConfusion.png" width="500">
+
+<img src = "Resources/RandomConfusion.png" width="300">
 
 #### Performance of the Logitic Regression Model using Naive Random Oversampling
 - Accuracy Score: 58.11%
