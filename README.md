@@ -18,7 +18,8 @@ When we split the data into low risk and high risk, the count of each in the dat
 <img src = "Resources/HighvLow.png" width="300">
 
 0.5% of the dataset is classified as high-risk, which is a very small subset of the dataset and showing us that this is imbalanced data. When we separate our data into training and testing groups, our training group has the following count:
-<img src = "Resources/HighvLowTraining.png" width="300">
+
+<img src = "Resources/HighvLowTraining.png" width="400">
 
 ## Model-Specific Performance
 ### Naive Random Oversampling
