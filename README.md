@@ -29,7 +29,7 @@ Random oversampling duplicates the records of the minority class (data that is i
 <img src = "Resources/RandomCounts.png" width="300">
 
 #### Confusion Matrix
-The confusion matrix using Naive Random Oversampling show that this model was able to identify low-risk data at much greater rates than high-risk data.
+The confusion matrix using Naive Random Oversampling shows that this model was able to identify low-risk data at much greater rates than high-risk data.
 
 <img src = "Resources/RandomConfusion.png" width="230">
 
@@ -46,7 +46,7 @@ SMOTE (Synthetic Minority Over-sampling TEchnique) creates new records in the vi
 <img src = "Resources/SMOTECounts.png" width="300">
 
 #### Confusion Matrix
-The confusion matrix using SMOTE show that, similar to random oversampling, this model was able to identify low-risk data at much greater rates than high-risk data.
+The confusion matrix using SMOTE shows that, similar to random oversampling, this model was able to identify low-risk data at much greater rates than high-risk data.
 
 <img src = "Resources/SMOTEConfusion.png" width="230">
 
@@ -80,7 +80,7 @@ Random undersampling reduces the count of the training set of the majority class
 <img src = "Resources/UndersamplingCounts.png" width="300">
 
 #### Confusion Matrix
-The confusion matrix using random undersamplish show that, similar to random oversampling and SMOTE, this model was able to identify low-risk data at much greater rates than high-risk data.
+The confusion matrix using random undersamplish shows that, similar to random oversampling and SMOTE, this model was able to identify low-risk data at much greater rates than high-risk data.
 
 <img src = "Resources/UndersamplingConfusion.png" width="230">
 
@@ -97,7 +97,7 @@ SMOTE-ENN (SMOTE and K-Nearest Neighbors) oversamples the minority class and und
 <img src = "Resources/SMOTEENNCounts.png" width="300">
 
 #### Confusion Matrix
-The confusion matrix using SMOTE-ENN show that, similar to random oversampling, SMOTE, and random undersampling, this model was able to identify low-risk data at much greater rates than high-risk data. However, it predicted correctly more of the high-risk applications than the other methods so far.
+The confusion matrix using SMOTE-ENN shows that, similar to random oversampling, SMOTE, and random undersampling, this model was able to identify low-risk data at much greater rates than high-risk data. However, it predicted correctly more of the high-risk applications than the other methods so far.
 
 <img src = "Resources/SMOTEENNConfusion.png" width="230">
 
@@ -114,7 +114,7 @@ BRF (Balanced random forest) classifying undersamples our data to balance it. Us
 <img src = "Resources/BRFCounts.png" width="300">
 
 #### Confusion Matrix
-The confusion matrix using BRF show that it is better at predicting high-risk applications than some of the other methods.
+The confusion matrix using BRF shows that it is better at predicting high-risk applications than some of the other methods.
 
 <img src = "Resources/BRFConfusion.png" width="230">
 
@@ -124,3 +124,20 @@ The confusion matrix using BRF show that it is better at predicting high-risk ap
 - Recall: 88%
 
 <img src = "Resources/BRFClassification.png" width="550">
+
+### Easy Ensemble Classifying
+Easy ensemble classifying creates balanced samples of the training dataset by selecting all examples from the minority class and a subset from the majority class. Using easy ensemble to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+
+<img src = "Resources/EnsembleCounts.png" width="300">
+
+#### Confusion Matrix
+The confusion matrix using easy ensemble shows that it is better at predicting high-risk applications than some of the other methods.
+
+<img src = "Resources/EnsembleConfusion.png" width="230">
+
+#### Performance of the Logistic Regression Model using Easy Ensemble
+- Accuracy Score: 92.93%
+- Precision: 7%
+- Recall: 93%
+
+<img src = "Resources/EnsembleClassification.png" width="550">
