@@ -15,7 +15,7 @@ The following six machine learning models are used to check for accuracy in dete
 
 ### Initial Counts of Minority/Majority Classes in the Dataset
 When we split the data into low risk and high risk, the count of each in the dataset is as follows (where 0 is high-risk and 1 is low-risk):
-![HighvLow](Resources/HighvLow.png)
+img src = <"Resources/HighvLow.png" width="500>
 
 0.5% of the dataset is classified as high-risk, which is a very small subset of the dataset and showing us that this is imbalanced data. When we separate our data into training and testing groups, our training group has the following count:
 ![HighvLowTraining](Resources/HighvLowTraining.png)
