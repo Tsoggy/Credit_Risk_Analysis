@@ -7,6 +7,7 @@ In this analysis, we used the credit card credit dataset from Lending Club to cr
 The following machine learning models are used to check for accuracy in determining risk:
 
 - Resampling models:
+  
   1. Random Oversampling
   2. SMOTE
   3. Random Undersampling
