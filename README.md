@@ -92,7 +92,7 @@ The confusion matrix using random undersamplish show that, similar to random ove
 <img src = "Resources/UndersamplingClassification.png" width="550">
 
 ### SMOTE-ENN
-SMOTE-ENN (SMOTE and K-Nearest Neighbors) oversamples the minority class and undersamples the majority class. It creates synthetic values to add to the minority class, and then removes data from the majority class if its nearest neighbors are misclassified . Using SMOTE-ENN to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+SMOTE-ENN (SMOTE and K-Nearest Neighbors) oversamples the minority class and undersamples the majority class. It creates synthetic values to add to the minority class, and then removes data from the majority class if its nearest neighbors are misclassified. Using SMOTE-ENN to resample our training dataset produces the following counts for the high-risk and low-risk groups:
 
 <img src = "Resources/SMOTEENNCounts.png" width="300">
 
@@ -107,3 +107,20 @@ The confusion matrix using SMOTE-ENN show that, similar to random oversampling, 
 - Recall: 58%
 
 <img src = "Resources/SMOTEENNClassification.png" width="550">
+
+### Balanced Random Forest Classifying
+BRF (Balanced random forest) classifying undersamples our data to balance it. Using BRF to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+
+<img src = "Resources/BRFCounts.png" width="300">
+
+#### Confusion Matrix
+The confusion matrix using BRF show that it is better at predicting high-risk applications than some of the other methods.
+
+<img src = "Resources/BRFConfusion.png" width="230">
+
+#### Performance of the Logistic Regression Model using BRF
+- Accuracy Score: 77.88%
+- Precision: 3%
+- Recall: 88%
+
+<img src = "Resources/BRFClassification.png" width="550">
