@@ -15,6 +15,7 @@ The following six machine learning models are used to check for accuracy in dete
 
 ### Initial Counts of Minority/Majority Classes in the Dataset
 When we split the data into low risk and high risk, the count of each in the dataset is as follows (where 0 is high-risk and 1 is low-risk):
+
 <img src = "Resources/HighvLow.png" width="300">
 
 0.5% of the dataset is classified as high-risk, which is a very small subset of the dataset and showing us that this is imbalanced data. When we separate our data into training and testing groups, our training group has the following count:
@@ -24,6 +25,7 @@ When we split the data into low risk and high risk, the count of each in the dat
 ## Model-Specific Performance
 ### Naive Random Oversampling
 Random oversampling duplicates the records of the minority class (data that is identified as high-risk) to match the size of the majority class. Using random oversampling to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+
 <img src = "Resources/RandomCounts.png" width="300">
 
 #### Confusion Matrix
@@ -35,10 +37,12 @@ The confusion matrix using Naive Random Oversampling show that this model was ab
 - Accuracy Score: 58.11%
 - Precision: 1%
 - Recall: 74%
+
 <img src = "Resources/RandomClassification.png" width="550">
 
 ### SMOTE
 SMOTE (Synthetic Minority Over-sampling TEchnique) creates new records in the vicinity of those of the minority class (data that is identified as high-risk) to match the size of the majority class. Using SMOTE to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+
 <img src = "Resources/SMOTECounts.png" width="300">
 
 #### Confusion Matrix
@@ -50,4 +54,5 @@ The confusion matrix using SMOTE show that this model was able to identify low-r
 - Accuracy Score: 58.11%
 - Precision: 1%
 - Recall: 74%
+
 <img src = "Resources/SMOTEClassification.png" width="550">
