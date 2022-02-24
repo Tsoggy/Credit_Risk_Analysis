@@ -144,4 +144,4 @@ The confusion matrix using easy ensemble shows that it is better at predicting h
 
 ## Summary
 ### Best Performing Model
-The Easy Ensemble model performed the best across all categories: Accuracy, Precision, and Recall. 
+The Easy Ensemble model performed the best across all categories, and had the greatest recall (sensitivity) at predicting high-risk applicants.
