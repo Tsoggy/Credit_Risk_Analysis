@@ -24,7 +24,7 @@ When we split the data into low risk and high risk, the count of each in the dat
 ## Model-Specific Performance
 ### Naive Random Oversampling
 Random oversampling duplicates the records of the minority class (data that is identified as high-risk) to match the size of the majority class. Using random oversampling to resample our training dataset produces the following counts for the high-risk and low-risk groups:
-<img src = "Resources/RandomCounts.png" width="550">
+<img src = "Resources/RandomCounts.png" width="300">
 
 #### Confusion Matrix
 The confusion matrix using Naive Random Oversampling show that this model was able to identify low-risk data at much greater rates than high-risk data.
@@ -34,7 +34,7 @@ The confusion matrix using Naive Random Oversampling show that this model was ab
 - Accuracy Score: 58.11%
 - Precision: 1%
 - Recall: 74%
-<img src = "Resources/RandomClassification.png" width="500">
+<img src = "Resources/RandomClassification.png" width="550">
 
 
 
