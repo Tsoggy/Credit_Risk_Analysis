@@ -4,15 +4,12 @@
 In this analysis, we used the credit card credit dataset from Lending Club to create models that evaluates applications for low or high risk. Each application has many variables, including but not limited to: loan amount, interest rate, annual income, home ownership, etc..
 
 ### Models used for analysis
-The following machine learning models are used to check for accuracy in determining risk:
-
-- Resampling models:
+The following six machine learning models are used to check for accuracy in determining risk:
   
   1. Random Oversampling
   2. SMOTE
   3. Random Undersampling
   4. SMOTEENN
-- Ensemble classifiers:
   5. Balanced Random Forest Classifying
   6. Easy Ensemble Classifying
 
