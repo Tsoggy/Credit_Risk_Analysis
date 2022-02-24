@@ -9,7 +9,7 @@ The following six machine learning models are used to check for accuracy in dete
   1. Naive Random Oversampling
   2. SMOTE
   3. Random Undersampling
-  4. SMOTEENN
+  4. SMOTE-ENN
   5. Balanced Random Forest Classifying
   6. Easy Ensemble Classifying
 
@@ -68,8 +68,42 @@ The confusion matrix using random undersamplish show that, similar to random ove
 <img src = "Resources/UndersamplingConfusion.png" width="230">
 
 #### Performance of the Logistic Regression Model using Random Undersampling
-- Accuracy Score: 64.76%
+- Accuracy Score: 65.08%
 - Precision: 1%
-- Recall: 74%
+- Recall: 54%
 
 <img src = "Resources/UndersamplingClassification.png" width="550">
+
+### Random Undersampling
+Random undersampling reduces the count of the training set of the majority class to match that of the minority set. Using random undersampling to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+
+<img src = "Resources/UndersamplingCounts.png" width="300">
+
+#### Confusion Matrix
+The confusion matrix using random undersamplish show that, similar to random oversampling and SMOTE, this model was able to identify low-risk data at much greater rates than high-risk data.
+
+<img src = "Resources/UndersamplingConfusion.png" width="230">
+
+#### Performance of the Logistic Regression Model using Random Undersampling
+- Accuracy Score: 65.08%
+- Precision: 1%
+- Recall: 54%
+
+<img src = "Resources/UndersamplingClassification.png" width="550">
+
+### SMOTE-ENN
+SMOTE-ENN (SMOTE and K-Nearest Neighbors) oversamples the minority class and undersamples the majority class. It creates synthetic values to add to the minority class, and then removes data from the majority class if its nearest neighbors are misclassified . Using SMOTE-ENN to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+
+<img src = "Resources/SMOTEENNCounts.png" width="300">
+
+#### Confusion Matrix
+The confusion matrix using SMOTE-ENN show that, similar to random oversampling, SMOTE, and random undersampling, this model was able to identify low-risk data at much greater rates than high-risk data. However, it predicted correctly more of the high-risk applications than the other methods so far.
+
+<img src = "Resources/SMOTEENNConfusion.png" width="230">
+
+#### Performance of the Logistic Regression Model using SMOTE-ENN
+- Accuracy Score: 64.77%
+- Precision: 1%
+- Recall: 58%
+
+<img src = "Resources/SMOTEENNClassification.png" width="550">
