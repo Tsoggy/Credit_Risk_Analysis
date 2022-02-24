@@ -133,7 +133,7 @@ Easy ensemble classifying creates balanced samples of the training dataset by se
 #### Confusion Matrix
 The confusion matrix using easy ensemble shows that it is better at predicting high-risk applications than some of the other methods.
 
-<img src = "Resources/EnsembleConfusion.png" width="230">
+<img src = "Resources/EnsembleConfusion1.png" width="230">
 
 #### Performance of the Logistic Regression Model using Easy Ensemble
 - Accuracy Score: 92.93%
