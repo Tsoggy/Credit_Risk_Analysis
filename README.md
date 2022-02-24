@@ -141,3 +141,7 @@ The confusion matrix using easy ensemble shows that it is better at predicting h
 - Recall: 93%
 
 <img src = "Resources/EnsembleClassification.png" width="550">
+
+## Summary
+### Best Performing Models
+The Easy Ensemble model performed the best across all categories: Accuracy, Precision, and Recall. 
