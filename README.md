@@ -31,13 +31,23 @@ The confusion matrix using Naive Random Oversampling show that this model was ab
 
 <img src = "Resources/RandomConfusion.png" width="230">
 
-#### Performance of the Logitic Regression Model using Naive Random Oversampling
+#### Performance of the Logistic Regression Model using Naive Random Oversampling
 - Accuracy Score: 58.11%
 - Precision: 1%
 - Recall: 74%
 <img src = "Resources/RandomClassification.png" width="550">
 
-
-
 ### SMOTE
+SMOTE (Synthetic Minority Over-sampling TEchnique) creates new records in the vicinity of those of the minority class (data that is identified as high-risk) to match the size of the majority class. Using SMOTE to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+<img src = "Resources/SMOTECounts.png" width="300">
 
+#### Confusion Matrix
+The confusion matrix using SMOTE show that this model was able to identify low-risk data at much greater rates than high-risk data.
+
+<img src = "Resources/SMOTEConfusion.png" width="230">
+
+#### Performance of the Logistic Regression Model using SMOTE
+- Accuracy Score: 58.11%
+- Precision: 1%
+- Recall: 74%
+<img src = "Resources/SMOTEClassification.png" width="550">
