@@ -58,18 +58,18 @@ The confusion matrix using SMOTE show that, similar to random oversampling, this
 <img src = "Resources/SMOTEClassification.png" width="550">
 
 ### Random Undersampling
-SMOTE (Synthetic Minority Over-sampling TEchnique) creates new records in the vicinity of those of the minority class (data that is identified as high-risk) to match the size of the majority class. Using SMOTE to resample our training dataset produces the following counts for the high-risk and low-risk groups:
+Random undersampling reduces the count of the training set of the majority class to match that of the minority set. Using random undersampling to resample our training dataset produces the following counts for the high-risk and low-risk groups:
 
-<img src = "Resources/SMOTECounts.png" width="300">
+<img src = "Resources/UndersamplingCounts.png" width="300">
 
 #### Confusion Matrix
-The confusion matrix using SMOTE show that, similar to random oversampling, this model was able to identify low-risk data at much greater rates than high-risk data.
+The confusion matrix using random undersamplish show that, similar to random oversampling and SMOTE, this model was able to identify low-risk data at much greater rates than high-risk data.
 
-<img src = "Resources/SMOTEConfusion.png" width="230">
+<img src = "Resources/UndersamplingConfusion.png" width="230">
 
-#### Performance of the Logistic Regression Model using SMOTE
+#### Performance of the Logistic Regression Model using Random Undersampling
 - Accuracy Score: 64.76%
 - Precision: 1%
 - Recall: 74%
 
-<img src = "Resources/SMOTEClassification.png" width="550">
+<img src = "Resources/UndersamplingClassification.png" width="550">
